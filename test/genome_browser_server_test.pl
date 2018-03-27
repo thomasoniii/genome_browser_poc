@@ -22,8 +22,8 @@ $genome_browser::genome_browserServer::CallContext = $ctx;
 my $impl = new genome_browser::genome_browserImpl();
 
 my $impl = new genome_browser::genome_browserImpl();
-ok($impl->get_gff('14487/2/1'), 'Got GFF file');
-ok($impl->get_fasta('14487/2/1'), 'Got Fasta file');
+ok($impl->get_gff('6976/938/2'), 'Got GFF file');
+ok($impl->get_fasta('6976/938/2'), 'Got Fasta file');
 
 
 sub get_ws_name {

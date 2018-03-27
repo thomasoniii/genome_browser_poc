@@ -13,3 +13,5 @@ module-version:
 owners:
     [thomasoniii]
 
+service-config:
+  dynamic-service : true
