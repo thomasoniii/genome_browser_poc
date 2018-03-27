@@ -209,7 +209,7 @@ sub get_fasta
     my($return);
     #BEGIN get_fasta
 
-    my $ws = Workspace::WorkspaceClient->new('https://appdev.kbase.us/services/ws', token => $ENV{'KB_AUTH_TOKEN'} );
+    my $ws = Workspace::WorkspaceClient->new('https://ci.kbase.us/services/ws', token => $ENV{'KB_AUTH_TOKEN'} );
     my $go_info = $ws->get_objects2({
       'objects' => [{'ref' => $genome_ref}],
       'no_data' => 1,
